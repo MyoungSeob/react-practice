@@ -27,7 +27,7 @@ const Info = () => {
       console.log("cleanup");
       console.log(name);
     };
-  }, [name]);
+  }, [name]); // 뒷정리
 
   return (
     <div>
